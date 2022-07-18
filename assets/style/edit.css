@@ -1,0 +1,62 @@
+body{
+    margin-top: 80px;
+    background-image: url("../img/bg-body.png");
+    font-family: 'Jost', sans-serif;
+}
+
+.navbar{
+    background-color: #b33636;
+    font-weight: 300;
+}
+
+.edit{
+    min-height: 600px;
+    border: 3px solid #b33636;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, .3);
+}
+
+.pict{
+    border: 3px solid #b33636;
+    border-radius: 10px;
+    min-height: 500px;
+    padding: 30px 4%;
+}
+
+.pict img{
+    width: 100%;
+}
+
+.pict .btn{
+    width: 100%;
+    background-color: #b33636;
+    color: #eaeaea;
+}
+
+.edit button:hover{
+    background-color: #f8f9fa;
+    border: 1px solid #b33636;
+    color: #b33636;
+}
+
+.pict p{
+    margin-bottom: -10px;
+}
+
+.bio img{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.bio h5{
+    font-weight: lighter;
+}
+
+.simpan button{
+    margin: auto;
+    background-color: #b33636;
+    color: #eaeaea;
+}
+

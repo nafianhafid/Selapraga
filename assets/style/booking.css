@@ -1,0 +1,92 @@
+html {
+    background-image: url('../img/bg-body.png');
+}
+
+#booking {
+    width: 350px;
+    background-color: #b33636;
+    margin: 80px auto;
+    height: 500px;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.kotak-username {
+    background-color: #b33636;
+    height: 490px;
+    width: 400px;
+    padding: 4px;
+}
+
+.tombol-cancel, .tombol-cek, .tombol-continue {
+    background: black;
+    color: white;
+    font-size: 11pt;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    padding: 7px;
+}
+
+.tombol-continue {
+    width: 100px;
+    position: absolute;
+    bottom: 160px;
+    left: 31%;
+}
+
+.tombol-cek {
+    position: absolute;
+    bottom: 160px;
+    left: 23%;
+}
+
+.tombol-cancel {
+    position: absolute;
+    bottom: 160px;
+    left: 15%;
+}
+
+.gambar1 {
+    position: absolute;
+    top: 125px;
+    right: 15%;
+    background-image: url('lapangan.jpg');
+    height: 200px;
+    width: 500px;
+    background-size: 100%;
+    border: 3px solid black;
+}
+
+.gamber2 {
+    position: absolute;
+    bottom: 105px;
+    right: 15%;
+    background-image: url('maps.JPG');
+    height: 200px;
+    width: 500px;
+    background-size: 100%;
+    border: 3px solid black;
+}
+
+.lapangan {
+    background-color: white;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+.maps {
+    background-color: black;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}

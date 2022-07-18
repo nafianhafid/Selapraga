@@ -1,0 +1,124 @@
+body{
+    margin-top: 80px;
+    background-image: url("img/bg-body.png");
+}
+
+.jb .container{
+    background-color: #999;
+}
+
+.navbar{
+    background-color: #4481eb;
+}
+
+.btn-cstm{
+    background-color: #4481eb;
+}
+
+#datePlay{
+    color: #777;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    height: 38px;
+    width: 100%;
+}
+
+.searchBar{
+    width: 85%;
+    margin: auto;
+}
+
+.jumbotron{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 10px 15px 7px rgba(0, 0, 0, .4);
+    object-fit: cover;
+}
+
+.slider{
+    width: 7%;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 90px;
+    margin-top: -250px;
+    opacity: .25;
+}
+
+.slider:hover{
+    opacity: .5;
+}
+
+.slider-r{
+    width: 7%;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 3px;
+    margin-left: 93%;
+    margin-top: -250px;
+    opacity: .25;
+}
+
+.slider-r:hover{
+    opacity: .5;
+}
+
+.slider span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.slider-r span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.judul{
+    padding: 0 20px;
+    margin-top: -100px;
+}
+
+.option{
+    width: 30%;
+    height: 80px;
+    background-color: #4481eb;
+    margin: 20px 10px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 5px;
+    box-shadow: 0 7px 15px 3px rgba(0, 0, 0, .5);
+}
+
+.aside{
+    border: 3px solid #4d4c7d;
+    height: 325px;
+}
+
+.info{
+    width: 95%;
+    height: 110px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    background-color: #fbdff0;
+}
+
+.button{
+    background-color: #4481eb;
+    margin: 10px;
+    width: 48%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+}
+.checked {
+    color: orange;
+    
+  }
+

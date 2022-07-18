@@ -1,0 +1,18 @@
+body {
+    background: $color-bg;
+    padding: 20px;
+  }
+  
+  .page-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 2em;
+  }
+  
+  .weight-slider { 
+    text-align: center; 
+    input {
+      width: 300px;
+    }
+  }

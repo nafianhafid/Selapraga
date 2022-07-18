@@ -1,0 +1,26 @@
+body{
+    margin-top: 80px;
+    background-image: url("../img/bg-body.png");
+    font-family: 'Jost', sans-serif;
+}
+
+.navbar{
+    background-color: #b33636;
+    font-weight: 300;
+}
+
+.list-container{
+    min-height: 600px;
+    border: 3px solid #b33636;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, .3);
+}
+
+.closest h4{
+    margin: 10px 22%;
+}
+
+.range h4{
+    margin: 10px 22%;
+}

@@ -1,0 +1,16 @@
+$color-bg: #fff;
+$color-gray: #AAA;
+$color-gray-light: #CCC;
+
+$ui-corner: 4px;
+
+$plate-pad: 40px;
+$plate-h: 200px;
+$plate-w: $plate-h * 0.2;
+$plate-list:
+  (weight: 45,  h: 1.0, w: 1.0),
+  (weight: 25,  h: 1.0, w: 0.7),
+  (weight: 15,  h: 0.9, w: 0.7),
+  (weight: 10,  h: 0.8, w: 0.7),
+  (weight: 5,   h: 0.7, w: 0.5),
+  (weight: 2.5, h: 0.3, w: 0.5);

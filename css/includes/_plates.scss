@@ -1,0 +1,62 @@
+.plates-display {
+    display: flex;
+    width: 100%;
+    height: $plate-h + $plate-pad * 2;
+    padding: $plate-pad;
+    box-sizing: border-box;
+    position: relative;
+  
+    // bar
+    &::before {
+      content: "";
+      height: 20px;
+      width: 100%;
+      position: absolute;
+      top: calc(50% - 10px);
+      left: 0;
+      background: $color-gray-light;
+      z-index: 1;
+      border-radius: $ui-corner;
+    }
+  
+    div {
+      display: flex;
+      width: 40%;
+      + div { margin-left: 20%; }
+      align-items: center;
+      z-index: 2;
+      position: relative;
+      &:last-child {
+        justify-content: flex-end;
+        span::after {
+          transform: rotate(90deg) translate(-50%, -50%);
+        }
+      }
+    }
+    span {
+      background: black;
+      margin: 2px;
+      position: relative;
+      border-radius: $ui-corner;
+      &::after {
+        content: attr(data-weight);
+        color: $color-gray;
+        font-size: 0.7rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: rotate(-90deg) translate(-50%, -50%);
+        transform-origin: 0 0;
+        font-weight: bold;
+      }
+      @each $plate in $plate-list {
+        $id: map-get($plate, weight);
+        $w:  map-get($plate, w);
+        $h: map-get($plate, h);
+        &[data-weight="#{$id}"] {
+          width: $w * $plate-w;
+          height: $h * $plate-h;
+        }
+      }
+    }
+  }
